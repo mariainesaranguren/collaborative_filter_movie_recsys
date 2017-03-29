@@ -1,0 +1,11 @@
+* Please be patient. Generating predictions can take a few minutes.
+
+Generating simple leave one out predictions:
+   Making predictions...
+	Overall RMSE:		 1.0205926320022516
+	Total calculation time:	 129.28445315361023 seconds
+	Coverage:		 0.9999111041619644
+
+The results of this test were saved in simple_l10_results.csv
+In this file, each line represents a user id, an item id, the actual rating, a predicted rating, and error found.
+The last line of the file contains the overall rmse, total time, and coverage of the prediction cycle.
