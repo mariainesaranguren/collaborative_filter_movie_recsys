@@ -1,6 +1,13 @@
-This is a project that does collaborative filtering on movie ratings to provide recommendations for users based on the ratings of other users and the similarity between them.
+This is a project that does collaborative filtering on movie ratings from the MovieLens dataset  to provide recommendations for users based on the ratings of other users and the similarity between them.
+The project tests different methods for creating these predictions and compares them in terms of coverage, accuracy, and time efficiency.
 
 *** This project must be run using python3 ***
+
+The project has been broken up into four tasks:
+- Task 1: Understanding the data
+- Task 2: Simple prediction testing with mean item rating using the leave one out technique
+- Task 3: Collaborative filtering predictions made with leave one out testing based on  distance-based similarity (using Pearson's coefficient of correlation and cosine similarity to calculate similarity and KNN, top n% neighbors, minimum similarity thresholds to create neighborhoods)
+- Task 4: Collaborative filtering predictions made with Resnick's formila based on distance-based similarity (using Pearson's coefficient of correlation and cosine similarity to calculate similarity and KNN, top n% neighbors, minimum similarity thresholds to create neighborhoods)
 
 Where to find what:
 - Report is in this same directory (PDF)
